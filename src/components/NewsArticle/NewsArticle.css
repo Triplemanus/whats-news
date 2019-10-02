@@ -1,0 +1,12 @@
+.card {
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.image {
+  border: 1px solid rgb(223, 222, 222);
+  height: 250px; 
+  width: 84%;
+  align-content: center;
+}
