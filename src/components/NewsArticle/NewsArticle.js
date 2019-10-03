@@ -2,7 +2,7 @@ import React from 'react';
 import './NewsArticle.css';
 
 const NewsArticle = ({ id, image, headline, description, url, deleteArticle}) => {
-  console.log('newsArticle id is: ', id);
+  // console.log('newsArticle id is: ', id);
   return (
     <div className='card'>
       <img className="image" src={image} alt="Current news article"></img>

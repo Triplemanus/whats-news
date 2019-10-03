@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   render () {
-    console.log('App state is: ', local);
+    // console.log('App state is: ', local);
     return (
       <div className="app">
         <h1>What's New?</h1>
