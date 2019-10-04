@@ -2,7 +2,7 @@ import React from 'react';
 import NewsArticle from '../NewsArticle/NewsArticle'
 import './NewsContainer.css'
 
-const NewsContainer = ({news, deleteArticle}) => {
+const NewsContainer = ({news, deleteArticle }) => {
   return (
     news.map(article => {
       return (
@@ -20,6 +20,6 @@ const NewsContainer = ({news, deleteArticle}) => {
       )
     })
   )
-}
+};
 
 export default NewsContainer;
