@@ -1,3 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should match the snapshot 1`] = `ShallowWrapper {}`;
+exports[`App should match the snapshot 1`] = `
+<div
+  className="app"
+>
+  <h1>
+    What's New?
+  </h1>
+  <Menu
+    sortArticles={[Function]}
+  />
+</div>
+`;

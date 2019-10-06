@@ -11,7 +11,9 @@ import Menu from '../Menu/Menu';
 class App extends Component {
   constructor() {
     super();
-    this.state = {}
+    this.state = {
+      topic: local
+    }
   }
 
   deleteArticle(articleId) {
@@ -19,12 +21,26 @@ class App extends Component {
   }
 
   sortArticles = (newTopic) => {
-    console.log('newTopic is : ', newTopic);
-    this.setState({ topic: science })
+    //console.log('newTopic is : ', newTopic);
+    this.setState(( state ) => {
+      switch(newTopic) {
+        case 'science':
+          return {topic: science}
+        case 'health':
+            return {topic: health}
+          case 'technology':
+              return {topic: technology}
+          case 'entertainment':
+              return {topic: entertainment}
+          default:
+            return state
+      }
+    });
+    // this.setState({ topic: newTopic })
   }
 
   render () {
-    console.log('App state is: ', this.state.topic);
+    console.log('App state is: ', this.state);
     return (
       <div className="app">
         <h1>What's New?</h1>

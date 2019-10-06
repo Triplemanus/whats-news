@@ -1,12 +1,30 @@
 .card {
   box-sizing: border-box;
   border: 3px solid black;
+  height: 450px;
   padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
 .image {
   border: 1px solid rgb(223, 222, 222);
-  height: 250px; 
+  height: 200px; 
   width: 84%;
   align-content: center;
+}
+
+h2 {
+  color: blue;
+  
+}
+h3 {
+  color: black;
+  font-style: italic;
+  padding: 10px;
+}
+
+p {
+  color: rgb(52, 52, 255);
 }
