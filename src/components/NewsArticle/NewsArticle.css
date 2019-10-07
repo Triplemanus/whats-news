@@ -1,9 +1,10 @@
 .card {
   box-sizing: border-box;
   border: 3px solid black;
-  height: 450px;
+  height: 520px;
   padding: 10px;
   border-radius: 10px;
+  width: 450px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }

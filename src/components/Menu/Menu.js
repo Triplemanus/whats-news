@@ -6,7 +6,6 @@ console.log('sortArticles is: ', sortArticles);
   return (
     <nav>
       <ul>
-        <li>Entertainment</li>
       </ul>
       <button type="text" onClick={() => sortArticles('entertainment')}> Entertainment</button>
       <button type="text" onClick={() => sortArticles('health')}> Health</button>
